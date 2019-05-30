@@ -6,7 +6,7 @@ Frontend
 
 Komandos nariai:
 
-    Jonas Petraška
-    Edvinas Senda
-    Aurelija Vasiliauskaitė
+  - Jonas Petraška
+  - Edvinas Senda
+  - Aurelija Vasiliauskaitė
 
