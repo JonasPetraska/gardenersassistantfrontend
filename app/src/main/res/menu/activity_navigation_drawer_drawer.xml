@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/profileSectionTitle" >
+        <menu>
+            <item
+                android:id="@+id/nav_change_position"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="@string/changeGarden" />
+            <item
+                android:id="@+id/nav_messages"
+                android:icon="@drawable/ic_envelope"
+                android:title="@string/messages" />
+            <item
+                android:id="@+id/nav_permissions"
+                android:icon="@drawable/ic_permissions"
+                android:title="@string/permissions" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_lock"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+    <item android:title="@string/gardenSectionTitle">
+        <menu>
+            <item
+                android:id="@+id/nav_journal"
+                android:icon="@drawable/ic_journal"
+                android:title="@string/journal" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/map" />
+            <item
+                android:id="@+id/nav_sensors"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="@string/sensors" />
+            <item
+                android:id="@+id/nav_machinery"
+                android:icon="@drawable/ic_machinery"
+                android:title="@string/machinery" />
+            <item
+                android:id="@+id/nav_workers"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="@string/workers" />
+            <item
+                android:id="@+id/nav_garden_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+</menu>

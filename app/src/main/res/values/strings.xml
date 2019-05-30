@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Sodininko asistentas</string>
+    <string name="title_activity_login">Prisijungimas</string>
+    <!-- Strings related to login -->
+    <string name="button_forgot_password">Pamiršote slaptažodį ?</string>
+    <string name="prompt_email">El.Pašto adresas</string>
+    <string name="prompt_password">Slaptažodis</string>
+    <string name="action_sign_in">Prisijungti</string>
+    <string name="action_sign_on">Užsiregistruoti</string>
+    <string name="or_text">arba</string>
+    <string name="action_sign_in_short">Prisijungimas</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to register -->
+    <string name="title_activity_register">Registracija</string>
+    <string name="name_surname">Vardas, Pavardė</string>
+    <string name="phone_number">Tel. Numeris</string>
+    <string name="repeat_password">Pakartoti slaptažodį</string>
+    <string name="register_button">Registruotis</string>
+
+    <!-- Strings related to home screen -->
+    <string name="title_activity_home">Namai</string>
+    <string name="title_activity_home_screen">Keisti sodą</string>
+    <string name="section1Title">Jūs esate savininkas sodų:</string>
+    <string name="section2Title">Jūs esate darbuotojas sodų:</string>
+    <string name="gardenButtonTitle">Sodas </string>
+    <string name="title_activity_navigation_drawer">Navigacija</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to navigation drawer-->
+    <string name="changeGarden">Keisti sodą</string>
+    <string name="messages">Žinutės</string>
+    <string name="settings">Nustatymai</string>
+    <string name="journal">Žurnalas</string>
+    <string name="machinery">Technika</string>
+    <string name="permissions">Prieigos teisės</string>
+    <string name="logout">Atsijungti</string>
+    <string name="gardenSectionTitle">Sodas</string>
+    <string name="profileSectionTitle">Paskyra</string>
+    <string name="map">Žemėlapis</string>
+    <string name="sensors">Jutikliai</string>
+    <string name="workers">Darbuotojai</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="api_map_key">AIzaSyDixLxvS4AX4GXGceyrEiWu8jwJv17uRLU</string>
+
+    <!-- Strings related to settings fragment-->
+    <string name="changePassword">Keisti slaptažodį</string>
+    <string name="changeEmail">Keisti el.pašto adresą</string>
+    <string name="changeName">Keisti vardą</string>
+    <string name="notificationsPhone">Pranešimai telefonu</string>
+    <string name="notificationsEmail">Pranešimai el.paštu</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/changePasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changePassword" />
+
+        <Button
+            android:id="@+id/changeEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changeEmail" />
+
+        <Button
+            android:id="@+id/changeNameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changeName" />
+
+        <Switch
+            android:id="@+id/emailNotificationsSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/notificationsEmail" />
+
+        <Switch
+            android:id="@+id/phoneNotificationsSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/notificationsPhone" />
+
+    </LinearLayout>
+</RelativeLayout>
